@@ -1,10 +1,12 @@
-﻿namespace OrderProject
+﻿using OrderProject.Entities;
+
+namespace OrderProject
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            _ = new Order();
         }
     }
 }
